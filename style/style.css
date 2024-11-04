@@ -17248,6 +17248,8 @@ fieldset:disabled .swal2-modal .swal2-buttonswrapper .swal2-styled,
 
 .border-primary {
   border-color: #1F3BB3 !important;
+}.border-black {
+  border-color: #000 !important;
 }
 
 .border-secondary,
@@ -26061,7 +26063,7 @@ code {
 
 /* Forms */
 .form-group {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .input-group-append,
@@ -26138,6 +26140,27 @@ select.border-primary.typeahead:focus,
 select.border-primary.tt-query:focus,
 select.border-primary.tt-hint:focus {
   outline: 1px solid #1F3BB3;
+}
+select.form-control.border-black,
+select.border-black.asColorPicker-input,
+.dataTables_wrapper select.border-black,
+.select2-container--default select.border-black.select2-selection--single,
+.select2-container--default .select2-selection--single select.border-black.select2-search__field,
+select.border-black.typeahead,
+select.border-black.tt-query,
+select.border-black.tt-hint {
+  outline: 1px solid #000 !important;
+}
+
+select.form-control.border-black:focus,
+select.border-black.asColorPicker-input:focus,
+.dataTables_wrapper select.border-black:focus,
+.select2-container--default select.border-black.select2-selection--single:focus,
+.select2-container--default .select2-selection--single select.border-black.select2-search__field:focus,
+select.border-black.typeahead:focus,
+select.border-black.tt-query:focus,
+select.border-black.tt-hint:focus {
+  outline: 1px solid #000 !important;
 }
 
 select.form-control.border-secondary,

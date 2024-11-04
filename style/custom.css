@@ -14,6 +14,10 @@
   color: #000;
 }
 
+.dashboard-title {
+  width: 187px;
+}
+
 .custom-table .table {
   width: 50rem;
 }
@@ -68,6 +72,7 @@
   text-align: center;
   border: 1px solid #000 !important;
 }
+
 .custom-table-gmc td i {
   font-weight: 200;
   font-size: 15px;
@@ -78,3 +83,120 @@
   border: 1px solid #000 !important;
 }
 
+.linear-bg {
+  background: linear-gradient(to top, #00000059 35%, #50B2F9 100%);
+}
+
+.btn-submit {
+  background-color: #F8FBA5;
+  border: 1px solid #000;
+  border-radius: 0 !important;
+  font-weight: 800;
+}
+
+.btn-save {
+  background-color: #FD74FF;
+  border: 1px solid #000;
+  border-radius: 0 !important;
+  font-weight: 800;
+}
+
+.btn-cancel {
+  background-color: #314CFA;
+  border: 1px solid #000;
+  border-radius: 0 !important;
+  font-weight: 800;
+}
+
+.btn-logout {
+  background-color: #81E5C38A;
+  border: 1px solid #000;
+  border-radius: 0 !important;
+  font-weight: 800;
+}
+
+.btn-next {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  padding: 3px 5px;
+  border: 1px solid #000;
+}
+
+.btn-next:hover {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  padding: 3px 5px;
+  border: 1px solid #000;
+}
+
+.sidebar .nav {
+  position: fixed !important;
+}
+
+.bg-C6D8E630 {
+  background: #C6D8E630;
+}
+
+.bg-D9D9D926 {
+  background: #D9D9D926;
+  width: 217px;
+}
+
+.bg-D9D9D9 {
+  background: #D9D9D9;
+}
+
+.bg-CFEAFEBF {
+  background: #CFEAFEBF;
+}
+
+.bg-A6EFB6BF {
+  background: #A6EFB6BF;
+}
+
+.profile-name {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #000;
+}
+
+.profile-devider {
+  -webkit-box-shadow: 2px 9px 5px 0px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 2px 9px 5px 0px rgba(0, 0, 0, 0.53);
+  box-shadow: 2px 9px 5px 0px rgba(0, 0, 0, 0.53);
+}
+
+.dashboard-devider {
+  -webkit-box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.26);
+  text-decoration: none;
+  color: #000;
+}
+
+.ssi-input {
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+  outline: 0;
+  font-size: 15px;
+  width: 100%;
+}
+
+.ssi-input:focus {
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+  outline: 0;
+  font-size: 15px;
+}
+
+.ssi-checkbox {
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+  outline: 0;
+  font-size: 17px;
+}

@@ -37,34 +37,41 @@
                 </a>
                 <span class=" custom-title">PHNHS</span>
             </div>
-            <div class="navbar-menu-wrapper d-flex align-items-top">
-                <ul class="navbar-nav">
-                    <li class="nav-item font-weight-semibold d-none d-lg-block ms-0">
-                        <h1 class="welcome-text"> <span class="text-black fw-bold">Message</span></h1>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <form class="search-form" action="#">
-                            <i class="icon-search"></i>
-                            <input type="search" class="form-control" placeholder="Search Here" title="Search here">
-                        </form>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link count-indicator" id="notificationDropdown" href="#"
-                            data-bs-toggle="dropdown">
-                            <i class="icon-mail icon-lg"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown d-none d-lg-block user-dropdown">
-                        <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img class="img-xs rounded-circle" src="../images/faces/face8.jpg" alt="Profile image"> </a>
-                    </li>
-                </ul>
-                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
-                    data-bs-toggle="offcanvas">
-                    <span class="mdi mdi-menu"></span>
-                </button>
+            <div class="navbar-menu-wrapper">
+                <div class="d-flex align-items-top">
+                    <ul class="navbar-nav">
+                        <li class="nav-item font-weight-semibold d-none d-lg-block ms-0">
+                            <h1 class="welcome-text d-flex align-items-bottom justify-content-center gap-1"> <i
+                                    class="mdi mdi-message text-black"></i> <span
+                                    class="text-black fw-bold">Message</span></h1>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <form class="search-form" action="#">
+                                <i class="icon-search"></i>
+                                <input type="search" class="form-control" placeholder="Search Here" title="Search here">
+                            </form>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link count-indicator" id="notificationDropdown" href="#"
+                                data-bs-toggle="dropdown">
+                                <i class="icon-mail icon-lg"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown d-none d-lg-block user-dropdown">
+                            <a class="nav-link" id="UserDropdown" href="#" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img class="img-xs rounded-circle" src="../images/faces/face23.jpg" alt="Profile image">
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+                        data-bs-toggle="offcanvas">
+                        <span class="mdi mdi-menu"></span>
+                    </button>
+                </div>
+                <div class="border border-1 border-gray"></div>
             </div>
         </nav>
         <!-- partial -->
@@ -129,13 +136,18 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>John Doe</td>
+                                        <td>Rose Ann Suarez</td>
+                                        <td>Guidance Associate</td>
+                                        <td class="status active">Active</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Summer Panganiban</td>
                                         <td>Student</td>
                                         <td class="status offline">Offline</td>
                                     </tr>
                                     <tr>
-                                        <td>John Doe</td>
-                                        <td>Guidance Associate</td>
+                                        <td>Christian Smith</td>
+                                        <td>Teacher</td>
                                         <td class="status active">Active</td>
                                     </tr>
                                 </tbody>
