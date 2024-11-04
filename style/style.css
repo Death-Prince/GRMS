@@ -31890,7 +31890,7 @@ div.tagsinput span.tag a {
   background: #7DA0FA;
   position: relative;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 10px;
 }
 
 .sidebar .nav .nav-item.active>.nav-link i,
@@ -31908,7 +31908,7 @@ div.tagsinput span.tag a {
 }
 
 .sidebar .nav .nav-item:hover>.nav-link {
-  background: transparent !important;
+  background: #7DA0FA !important;
   position: relative;
   font-weight: bold;
   font-size: 13px;

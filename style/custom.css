@@ -1,15 +1,80 @@
 .pt-6 {
-    padding-top: 5.5rem !important;
-  }
+  padding-top: 5.5rem !important;
+}
 
-  .img-xlg {
-    width: 130px;
-    height: 130px;
-  }
+.img-xlg {
+  width: 130px;
+  height: 130px;
+}
 
-  .custom-title{
-    font-weight: 600;
-    font-size: 20px;
-    border-bottom: 2px solid #000;
-    color: #000;
-  }
+.custom-title {
+  font-weight: 600;
+  font-size: 20px;
+  border-bottom: 2px solid #000;
+  color: #000;
+}
+
+.custom-table .table {
+  width: 50rem;
+}
+
+.custom-table th {
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #f2f2f2;
+  color: #000;
+  padding: 10px;
+}
+
+.custom-table .status.active {
+  color: green !important;
+}
+
+.custom-table .status.offline {
+  color: red !important;
+}
+
+.custom-table-gmc {
+  width: 50rem;
+}
+
+.custom-table-gmc table {
+  border-collapse: separate;
+  border-spacing: 1px;
+  width: 100%;
+  border: 2px solid #000 !important;
+  background-color: #aaa9a9;
+}
+
+.custom-table-gmc th {
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #7fe7c4;
+  color: #000;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid #000 !important;
+}
+
+
+.custom-table-gmc td {
+  font-weight: 200;
+  font-size: 15px;
+  background-color: #f2f2f2;
+  color: #000;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid #000 !important;
+}
+.custom-table-gmc td i {
+  font-weight: 200;
+  font-size: 15px;
+  background-color: #f2f2f2;
+  color: #000;
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid #000 !important;
+}
+
