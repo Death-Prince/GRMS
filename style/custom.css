@@ -7,6 +7,11 @@
   height: 130px;
 }
 
+.img-xxlg {
+  width: 150px;
+  height: 150px;
+}
+
 .custom-title {
   font-weight: 600;
   font-size: 20px;
@@ -131,6 +136,15 @@
   border: 1px solid #000;
 }
 
+.btn-grade {
+  padding: 5px 10px;
+}
+
+.btn-grade.active {
+  color: red;
+  background: #fff;
+}
+
 .sidebar .nav {
   position: fixed !important;
 }
@@ -154,6 +168,10 @@
 
 .bg-A6EFB6BF {
   background: #A6EFB6BF;
+}
+
+.bg-C6D8E6B8{
+  background-color: #C6D8E6B8;
 }
 
 .profile-name {
