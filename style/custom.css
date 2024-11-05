@@ -217,6 +217,10 @@
   background-color: #2BD8B5;
 }
 
+.bg-89FFD7{
+  background-color: #89FFD7 !important;
+}
+
 .profile-name {
   font-weight: 600;
   font-size: 2rem;
@@ -260,4 +264,11 @@
   background-color: transparent;
   outline: 0;
   font-size: 17px;
+}
+
+.custom-button{
+  position: absolute;
+  top: 97px;
+  left: auto;
+  z-index: 10000000;
 }
