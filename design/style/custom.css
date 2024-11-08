@@ -1,0 +1,274 @@
+.pt-6 {
+  padding-top: 5.5rem !important;
+}
+
+.img-xlg {
+  width: 130px;
+  height: 130px;
+}
+
+.img-xxlg {
+  width: 150px;
+  height: 150px;
+}
+
+.custom-title {
+  font-weight: 600;
+  font-size: 20px;
+  border-bottom: 2px solid #000;
+  color: #000;
+}
+
+.dashboard-title {
+  width: 187px;
+}
+
+.custom-table .table {
+  width: 50rem;
+}
+
+.custom-table th {
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #f2f2f2;
+  color: #000;
+  padding: 10px;
+}
+
+.custom-table .status.active {
+  color: green !important;
+}
+
+.custom-table .status.offline {
+  color: red !important;
+}
+
+.custom-table-sd,
+.custom-table-gmc {
+  width: 50rem;
+}
+
+
+.custom-table-sd table {
+  border-collapse: separate;
+  border-spacing: 1px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.custom-table-gmc table {
+  border-collapse: separate;
+  border-spacing: 1px;
+  width: 100%;
+  border: 2px solid #000 !important;
+  background-color: #aaa9a9;
+}
+
+.custom-table-sd th {
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #FFD497;
+  color: #000;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid #000 !important;
+}
+
+.custom-table-gmc th {
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #7fe7c4;
+  color: #000;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid #000 !important;
+}
+
+.custom-table-sd td {
+  font-weight: 200;
+  font-size: 15px;
+  background-color: #F5F5F5;
+  color: #000;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid #000 !important;
+}
+
+.custom-table-gmc td {
+  font-weight: 200;
+  font-size: 15px;
+  background-color: #f2f2f2;
+  color: #000;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid #000 !important;
+}
+
+.custom-table-sd td i {
+  font-weight: 200;
+  font-size: 15px;
+  background-color: #FEFEFECC;
+  color: #000;
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid #000 !important;
+}
+
+.custom-table-gmc td i {
+  font-weight: 200;
+  font-size: 15px;
+  background-color: #f2f2f2;
+  color: #000;
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid #000 !important;
+}
+
+.linear-bg {
+  background: linear-gradient(to top, #00000059 35%, #50B2F9 100%);
+}
+
+.btn-submit {
+  background-color: #F8FBA5;
+  border: 1px solid #000;
+  border-radius: 0 !important;
+  font-weight: 800;
+}
+
+.btn-save {
+  background-color: #FD74FF;
+  border: 1px solid #000;
+  border-radius: 0 !important;
+  font-weight: 800;
+}
+
+.btn-cancel {
+  background-color: #314CFA;
+  border: 1px solid #000;
+  border-radius: 0 !important;
+  font-weight: 800;
+}
+
+.btn-logout {
+  background-color: #81E5C38A;
+  border: 1px solid #000;
+  border-radius: 0 !important;
+  font-weight: 800;
+}
+
+.btn-next {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  padding: 3px 5px;
+  border: 1px solid #000;
+}
+
+.btn-next:hover {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  padding: 3px 5px;
+  border: 1px solid #000;
+}
+
+.btn-grade {
+  padding: 5px 10px;
+}
+
+.btn-grade.active {
+  color: red;
+  background: #fff;
+}
+
+.sidebar .nav {
+  position: fixed !important;
+}
+
+.bg-C6D8E630 {
+  background: #C6D8E630;
+}
+
+.bg-D9D9D926 {
+  background: #D9D9D926;
+  width: 217px;
+}
+
+.bg-D9D9D9 {
+  background: #D9D9D9;
+}
+
+.bg-CFEAFEBF {
+  background: #CFEAFEBF;
+}
+
+.bg-A6EFB6BF {
+  background: #A6EFB6BF;
+}
+
+.bg-C6D8E6B8 {
+  background-color: #C6D8E6B8;
+}
+.bg-2BD8B5{
+  background-color: #2BD8B5;
+}
+
+.bg-89FFD7{
+  background-color: #89FFD7 !important;
+}
+
+.profile-name {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #000;
+}
+
+.profile-devider {
+  -webkit-box-shadow: 2px 9px 5px 0px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 2px 9px 5px 0px rgba(0, 0, 0, 0.53);
+  box-shadow: 2px 9px 5px 0px rgba(0, 0, 0, 0.53);
+}
+
+.dashboard-devider {
+  -webkit-box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.26);
+  text-decoration: none;
+  color: #000;
+}
+
+.ssi-input {
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+  outline: 0;
+  font-size: 15px;
+  width: 100%;
+}
+
+.ssi-input:focus {
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+  outline: 0;
+  font-size: 15px;
+}
+
+.ssi-checkbox {
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+  outline: 0;
+  font-size: 17px;
+}
+
+.custom-button{
+  position: absolute;
+  top: 97px;
+  left: auto;
+  z-index: 10000000;
+}
